@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.ReelPulse" parent="Theme.Material3.DayNight.NoActionBar" />
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  packageNames scopes the service so Android only sends us events from these apps.
+  This is also a privacy feature worth advertising: we are architecturally incapable
+  of seeing anything outside this list, unlike a generic "usage access" permission.
+  User can edit this list from Settings > Tracked Apps (see AppRegistry.kt).
+-->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeWindowStateChanged|typeWindowContentChanged|typeViewScrolled"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:accessibilityFlags="flagReportViewIds|flagRetrieveInteractiveWindows"
+    android:canRetrieveWindowContent="true"
+    android:notificationTimeout="80"
+    android:description="@string/accessibility_service_description" />

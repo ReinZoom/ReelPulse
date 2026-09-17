@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ReelPulse</string>
+    <string name="accessibility_service_description">
+        ReelPulse helps you stay mindful of your short-form video usage.
+        This service only monitors designated video apps (Instagram, YouTube, etc.)
+        and is architecturally incapable of viewing sensitive information from banking
+        or messaging apps.
+    </string>
+</resources>
