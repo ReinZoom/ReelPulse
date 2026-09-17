@@ -1,6 +1,6 @@
 # ReelPulse — a reel/shorts counter, built to be better than BrainPal
 
-## How it works (same core mechanism BrainPal uses)
+## How it works
 
 Android does not give any app a "how many reels has the user watched" API.
 The only way to get this signal without root access is:
